@@ -11,6 +11,7 @@
 		D93D778D2BAA267800329819 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93D778C2BAA267800329819 /* ContentView.swift */; };
 		D93D778F2BAA267B00329819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93D778E2BAA267B00329819 /* Assets.xcassets */; };
 		D93D77922BAA267B00329819 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93D77912BAA267B00329819 /* Preview Assets.xcassets */; };
+		D992DF3D2BB278F600EB948F /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D992DF3C2BB278F600EB948F /* SearchResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		D93D778C2BAA267800329819 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D93D778E2BAA267B00329819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D93D77912BAA267B00329819 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D992DF3C2BB278F600EB948F /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				D93D778A2BAA267800329819 /* Network_DemoApp.swift */,
 				D93D778C2BAA267800329819 /* ContentView.swift */,
+				D992DF3B2BB278E100EB948F /* Model */,
 				D93D778E2BAA267B00329819 /* Assets.xcassets */,
 				D93D77902BAA267B00329819 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				D93D77912BAA267B00329819 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D992DF3B2BB278E100EB948F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D992DF3C2BB278F600EB948F /* SearchResponse.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				D93D778D2BAA267800329819 /* ContentView.swift in Sources */,
 				D93D778B2BAA267800329819 /* Network_DemoApp.swift in Sources */,
+				D992DF3D2BB278F600EB948F /* SearchResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
